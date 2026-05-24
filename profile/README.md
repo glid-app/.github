@@ -1,12 +1,37 @@
-## Hi there 👋
+# GLID.
 
-<!--
+**Sports coordination, built right.**
 
-**Here are some ideas to get you started:**
+Glid is a live iOS app connecting athletes in the DMV area — find pickup games, organize matches, and compete with people at your level. No group chats. No spreadsheets. Just play.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+---
+
+## What's in this org
+
+| Repo | What it is |
+|------|------------|
+| `glid-ios` | SwiftUI iOS app — player profiles, match creation, lobbies, live activity |
+| `glid-backend` | Rust/Axum API server with SurrealDB, JWT auth, FCM push, geofencing |
+| `glid-chat` | Go microservice for real-time in-app messaging |
+| `glid-web` | SvelteKit landing page + marketing site |
+
+---
+
+## Stack
+
+**iOS** — SwiftUI · HealthKit · CoreLocation · FCM  
+**Backend** — Rust · Axum · SurrealDB · GKE · Kubernetes  
+**Chat** — Go  
+**Web** — SvelteKit · TypeScript
+
+---
+
+## Links
+
+- 🏅 [Download on the App Store](https://apps.apple.com/app/glid)
+- 🌐 [glid.app](https://glid.app)
+- 📬 hello@glid.app
+
+---
+
+<sub>Built in Northern Virginia. Made for athletes, by athletes.</sub>
